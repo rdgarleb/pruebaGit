@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
-<de.visualrules.base.rule:FlowRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.visualrules.base="http:///de/visualrules/base.ecore" xmlns:de.visualrules.base.context="http:///de/visualrules/base/context.ecore" xmlns:de.visualrules.base.flow="http:///de/visualrules/base/flow.ecore" xmlns:de.visualrules.base.rule="http:///de/visualrules/base/rule.ecore" xmi:id="_HvkskAdMEe-Bjuqw6tb8lg" name="prueba" metamodelVersion="37" id="0">
+<de.visualrules.base.rule:FlowRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.visualrules.base="http:///de/visualrules/base.ecore" xmlns:de.visualrules.base.context="http:///de/visualrules/base/context.ecore" xmlns:de.visualrules.base.flow="http:///de/visualrules/base/flow.ecore" xmlns:de.visualrules.base.rule="http:///de/visualrules/base/rule.ecore" xmlns:de.visualrules.webservice="http:///de/visualrules/webservice.ecore" xmi:id="_HvkskAdMEe-Bjuqw6tb8lg" name="prueba" metamodelVersion="37" id="0">
   <parameterGroup xmi:id="_OW8pMAdMEe-Bjuqw6tb8lg">
     <elements xsi:type="de.visualrules.base.context:Parameter" xmi:id="_OW8pMQdMEe-Bjuqw6tb8lg" name="Funciona" typeName="Boolean" output="false" required="false"/>
     <elements xsi:type="de.visualrules.base.context:Parameter" xmi:id="_TczIsAdMEe-Bjuqw6tb8lg" name="Respuesta" typeName="String" input="false" required="false"/>
   </parameterGroup>
+  <ruleEnvironmentConfigurations xsi:type="de.visualrules.webservice:WebServiceRuleEnvironmentConfiguration" xmi:id="_KfMlIAi4Ee-7-8JYsP7H0w" generateWsdlOperation="true">
+    <environment href="visualrules:/webservice/#WebService"/>
+  </ruleEnvironmentConfigurations>
   <successors xsi:type="de.visualrules.base.flow:ExpressionDecision" xmi:id="_UKgjQAdMEe-Bjuqw6tb8lg" id="1">
     <successors xsi:type="de.visualrules.base.flow:ExpressionCaseBlock" xmi:id="_UKgjQgdMEe-Bjuqw6tb8lg" id="2">
       <successors xsi:type="de.visualrules.base.flow:Manipulations" xmi:id="_Xzv60AdMEe-Bjuqw6tb8lg" id="4">
