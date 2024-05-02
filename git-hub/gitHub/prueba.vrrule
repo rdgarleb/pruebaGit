@@ -19,9 +19,8 @@
       </successors>
       <condition xmi:id="_UKgjQwdMEe-Bjuqw6tb8lg" text="=TRUE" prefix="_UKgjQQdMEe-Bjuqw6tb8lg"/>
     </successors>
-    <successors xsi:type="de.visualrules.base.flow:ExpressionElseBlock" xmi:id="_UKgjRAdMEe-Bjuqw6tb8lg" id="3">
-      <informations xsi:type="de.visualrules.base:Description" xmi:id="_XACl8AdMEe-Bjuqw6tb8lg" text="=FALSE" language="en"/>
-      <successors xsi:type="de.visualrules.base.flow:Manipulations" xmi:id="_YQC1QAdMEe-Bjuqw6tb8lg" id="5">
+    <successors xsi:type="de.visualrules.base.flow:ExpressionCaseBlock" xmi:id="_MMfsEAjGEe-7-8JYsP7H0w" id="9">
+      <successors xsi:type="de.visualrules.base.flow:Manipulations" xmi:id="_YQC1QAdMEe-Bjuqw6tb8lg" id="10">
         <manipulations xsi:type="de.visualrules.base.flow:SubstituteAssignment" xmi:id="_YQC1QQdMEe-Bjuqw6tb8lg">
           <identifier xmi:id="_YQC1QgdMEe-Bjuqw6tb8lg" text="Respuesta"/>
           <value xsi:type="de.visualrules.base.context:ExpressionValue" xmi:id="_d2364AdMEe-Bjuqw6tb8lg">
@@ -29,6 +28,10 @@
           </value>
         </manipulations>
       </successors>
+      <condition xmi:id="_MMfsEQjGEe-7-8JYsP7H0w" text="=FALSE" prefix="_UKgjQQdMEe-Bjuqw6tb8lg"/>
+    </successors>
+    <successors xsi:type="de.visualrules.base.flow:ExpressionElseBlock" xmi:id="_UKgjRAdMEe-Bjuqw6tb8lg" id="3">
+      <informations xsi:type="de.visualrules.base:Description" xmi:id="_PQXswAjGEe-7-8JYsP7H0w" text="Otro" language="en"/>
     </successors>
     <prefix xmi:id="_UKgjQQdMEe-Bjuqw6tb8lg" text="Funciona"/>
   </successors>
